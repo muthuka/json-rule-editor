@@ -38,5 +38,7 @@ This documentation covers,
 5. [More examples in Decisions](https://vinzdeveloper.github.io/json-rule-editor/docs/decisions.html)
 6. [Advanced examples](https://vinzdeveloper.github.io/json-rule-editor/docs/advanced.html)
 
+## Dockerizing
 
-
+To build: $ docker build --tag json-rule-editor .
+To run: $ docker run -d --publish 8099:5000 json-rule-editor

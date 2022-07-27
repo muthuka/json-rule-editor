@@ -10,6 +10,11 @@ module.exports = (env, arg) => ({
       filename: "main.bundle.js",
       path: path.resolve(__dirname, 'dist')
     },
+    devServer: {
+      inline:true,
+      host: "0.0.0.0",
+      port: 5000
+    },
     devtool: arg.mode != 'production' ? 'eval-source-map': 'nosources-source-map',
     module: {
         rules: [{ 
