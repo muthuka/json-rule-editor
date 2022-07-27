@@ -40,5 +40,5 @@ This documentation covers,
 
 ## Dockerizing
 
-To build: $ docker build --tag json-rule-editor .
-To run: $ docker run -d --publish 8099:5000 json-rule-editor
+- To build: $ docker build --tag json-rule-editor .
+- To run: $ docker run --publish 8099:5000 json-rule-editor
